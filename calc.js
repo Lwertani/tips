@@ -12,10 +12,15 @@ console.log(tip)
 function clcTip() { if (bills >= 50 && bills <= 300 ){
     return
     console.log( bills / 10);
+}
+}
+
+/*
     else
     console.log( bills / 15)
 }
 }
+/*
 const firstBill = clcTip(bills[0]) 
 const secondBill = clcTip(bills[1])
 const thirdBill = clcTip(bills[2])
@@ -32,3 +37,4 @@ const firstBill = clcTips(bills[0])
 const secondBill = clcTips(bills[1])
 const thirdBill = clcTips(bills[2])
 console.log(firstBill, secondBill, thirdBill)
+*/
